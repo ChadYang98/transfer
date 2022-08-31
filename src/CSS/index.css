@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.col-sm-4 {
+    width: 300px;
+    border: 1px solid #5fcaf3;
+}
+.panel-heading {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    background-color: #86d5f3;
+}
+.checkbox label input {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #40c0f1;
+    border: none;
+    margin: 50px 50px;
+}
+.pull-right {
+    margin-left: 140px;
+}
